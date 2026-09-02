@@ -1,0 +1,41 @@
+# --- Environnement virtuel ---
+.venv/
+venv/
+env/
+
+# --- Données du projet (rapports sources, résultats d'extraction) ---
+data/
+Rapports/
+entreprises_cifen/
+resultats_docling/
+resultats_mineru/
+extraction_entreprises_publiques/data/
+extraction_entreprises_publiques/output/
+
+# --- Logs ---
+log/
+logs/
+*.log
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+
+# --- Environnement / secrets ---
+.env
+*.env
+config.local.py
+
+# --- Éditeurs / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Jupyter ---
+.ipynb_checkpoints/
