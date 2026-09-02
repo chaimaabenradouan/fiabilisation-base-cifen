@@ -91,7 +91,7 @@ appliquée à deux sources de documents très différentes.
 
 ### 1. Collecte (Bourse de Casablanca)
 
-Dossier `scripts/01_collecte/`.
+Dossier `extraction_entreprises_cotees_bourse/01_collecte/`.
 
 - Scraping des rapports annuels publiés sur le site de la Bourse de
   Casablanca, avec pagination robuste (gestion des `...` masquant les
@@ -107,7 +107,7 @@ Dossier `scripts/01_collecte/`.
 
 ### 2. Extraction (Bourse de Casablanca)
 
-Dossier `scripts/02_extraction/`.
+Dossier `extraction_entreprises_cotees_bourse/02_extraction/`.
 
 - **`scraper_identifiants_entreprises.py`** : constitution de la liste de
   référence des entreprises et de leurs identifiants.
@@ -128,7 +128,7 @@ Dossier `scripts/02_extraction/`.
 
 ### 3. Vérification (Bourse de Casablanca)
 
-Dossier `scripts/03_verification/`.
+Dossier `extraction_entreprises_cotees_bourse/03_verification/`.
 
 - Vérification de l'**équilibre du bilan** (Actif = Passif) et du
   **raccordement du résultat net** (CPC = Passif) — règle de cohérence
@@ -198,7 +198,7 @@ pipreqs . --force --encoding utf-8
 
 ```
 fiabilisation_cifen/
-├── scripts/
+├── extraction_entreprises_cotees_bourse/
 │   ├── 01_collecte/
 │   │   ├── nettoyage_pages_uniques/
 │   │   ├── optimisation_volumineux/
