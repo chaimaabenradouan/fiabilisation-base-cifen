@@ -3,7 +3,7 @@
 **Extraction • Structuration • Contrôle • Validation des données financières**
 *Des données fiables pour des analyses financières fiables.*
 
-Projet réalisé pour le **MTPME**, alimentant la base **CIFEN** (base de données
+Projet réalisé pour le **OMTPME**, alimentant la base **CIFEN** (base de données
 financières des entreprises marocaines), à partir de deux populations
 d'entreprises :
 
@@ -233,6 +233,6 @@ fiabilisation_cifen/
 | Spécialité | Génie Informatique et Intelligence Artificielle |
 | Réalisé par | Chaimaa BENRADOUAN |
 | Encadrant de stage | Monsieur Abdessamad OURAD |
-| Organisme d'accueil | MTPME |
+| Organisme d'accueil | OMTPME |
 | Période du stage | Du 22 juin 2026 au 28 août 2026 |
 | Année universitaire | 2025 – 2026 |
